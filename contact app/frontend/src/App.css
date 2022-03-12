@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(194, 199, 199);
+}
+
+.box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: white;
+  margin-top: 5%;
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.box2 {
+  background-color: white;
+  margin-top: 5%;
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+  border: 2px solid black;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+form {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  width: 50%;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  color: rgb(81, 179, 102);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #1d1b1b;
+  text-align: left;
+  padding: 20px;
+}
+
+th {
+  background-color: #c6e3ec;
+}
+
+tbody:nth-child(even) {
+  background-color: #ebe0e0;
+}
+
+.btn3 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.btn3:hover {
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.view {
+  padding: 100px;
+}
